@@ -1,0 +1,58 @@
+2022-06-07 04:57:15,327 DEBUG server.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__
+2022-06-07 04:57:33,161 DEBUG server.py Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>,), {}. Вызов из модуля common.utils
+2022-06-07 04:57:33,162 DEBUG server.py Была вызвана функция send_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>, {'response': 200}), {}. Вызов из модуля common.utils
+2022-06-07 04:57:33,162 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1654563452.6606367, 'user': {'account_name': 'еtest42'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>], {'еtest42': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>}), {}. Вызов из модуля __main__
+2022-06-07 04:57:49,181 DEBUG server.py Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>,), {}. Вызов из модуля common.utils
+2022-06-07 04:57:49,181 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'message', 'from': 'еtest42', 'to': 'test42', 'time': 1654563469.0866053, 'mess_text': "sdfpklsdfpj[ksdfjl;ksdfs'k"}, [{'action': 'message', 'from': 'еtest42', 'to': 'test42', 'time': 1654563469.0866053, 'mess_text': "sdfpklsdfpj[ksdfjl;ksdfs'k"}], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>], {'еtest42': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>}), {}. Вызов из модуля __main__
+2022-06-07 04:57:49,181 DEBUG server.py Была вызвана функция process_message c параметрами ({'action': 'message', 'from': 'еtest42', 'to': 'test42', 'time': 1654563469.0866053, 'mess_text': "sdfpklsdfpj[ksdfjl;ksdfs'k"}, {'еtest42': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>}, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>]), {}. Вызов из модуля __main__
+2022-06-07 04:57:56,190 DEBUG server.py Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38030)>,), {}. Вызов из модуля common.utils
+2022-06-07 04:57:56,190 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'exit', 'time': 1654563475.7390516, 'account_name': 'еtest42'}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [], {}), {}. Вызов из модуля __main__
+2022-06-07 04:59:26,626 DEBUG server.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__
+2022-06-07 04:59:37,823 DEBUG server.py Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38032)>,), {}. Вызов из модуля common.utils
+2022-06-07 04:59:37,824 DEBUG server.py Была вызвана функция send_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38032)>, {'response': 200}), {}. Вызов из модуля common.utils
+2022-06-07 04:59:37,824 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'presence', 'time': 1654563577.3223035, 'user': {'account_name': 'test42'}}, [], <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38032)>, [<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38032)>], {'test42': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38032)>}), {}. Вызов из модуля __main__
+2022-06-07 05:00:05,358 DEBUG server.py Была вызвана функция get_message c параметрами (<socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 38032)>,), {}. Вызов из модуля common.utils
+2022-06-07 05:00:05,358 DEBUG server.py Была вызвана функция process_client_message c параметрами ({'action': 'exit', 'time': 1654563605.058051, 'account_name': 'test42'}, [], <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0>, [], {}), {}. Вызов из модуля __main__
+2022-06-07 05:04:05,441 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-06-07 05:04:15,830 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38034)
+2022-06-07 05:04:15,830 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654563855.8298504, 'user': {'account_name': 'test42'}}
+2022-06-07 05:04:38,357 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654563878.307462, 'account_name': 'test42'}
+2022-06-07 05:09:05,710 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-06-07 05:09:18,807 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38036)
+2022-06-07 05:09:18,807 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654564158.8070917, 'user': {'account_name': 'test1'}}
+2022-06-07 05:09:32,895 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38038)
+2022-06-07 05:09:32,896 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654564172.89577, 'user': {'account_name': 'test2'}}
+2022-06-07 05:09:57,426 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1654564197.1123664, 'mess_text': 'Hello!!!'}
+2022-06-07 05:09:57,427 INFO server.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-06-07 05:10:49,990 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1654564249.91072, 'mess_text': 'Ну нельзя Nooooo......'}
+2022-06-07 05:10:49,991 INFO server.py Отправлено сообщение пользователю test2 от пользователя test1.
+2022-06-07 05:11:10,516 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654564270.3192565, 'account_name': 'test2'}
+2022-06-07 05:11:20,528 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654564280.4578497, 'account_name': 'test1'}
+2022-06-07 05:20:33,000 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-06-07 05:20:39,135 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38040)
+2022-06-07 05:20:39,135 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654564839.1357248, 'user': {'account_name': 'test1'}}
+2022-06-07 05:21:07,840 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38042)
+2022-06-07 05:21:08,343 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654564867.84036, 'user': {'account_name': 'test2'}}
+2022-06-07 05:21:13,350 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654564872.8716466, 'account_name': 'test2'}
+2022-06-07 05:21:16,758 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38044)
+2022-06-07 05:21:16,759 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654564876.758831, 'user': {'account_name': 'test2'}}
+2022-06-07 05:21:23,267 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654564883.0006132, 'account_name': 'test2'}
+2022-06-07 05:21:29,776 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654564889.7103474, 'account_name': 'test1'}
+2022-06-07 05:31:17,487 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-06-07 05:31:21,590 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38048)
+2022-06-07 05:31:21,591 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654565481.590866, 'user': {'account_name': 'test1'}}
+2022-06-07 05:31:28,434 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38050)
+2022-06-07 05:31:28,434 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654565488.4339387, 'user': {'account_name': 'test2'}}
+2022-06-07 05:31:53,964 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1654565513.7722588, 'mess_text': '456465645'}
+2022-06-07 05:31:53,965 INFO server.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-06-07 05:32:04,478 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654565524.0898504, 'account_name': 'test1'}
+2022-06-07 05:32:10,486 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654565530.1811123, 'account_name': 'test2'}
+2022-06-07 05:43:47,230 INFO server.py Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2022-06-07 05:43:52,639 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38056)
+2022-06-07 05:43:52,639 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654566232.6395059, 'user': {'account_name': 'test1'}}
+2022-06-07 05:44:04,200 INFO server.py Установлено соедение с ПК ('127.0.0.1', 38058)
+2022-06-07 05:44:04,200 DEBUG server.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1654566244.2001245, 'user': {'account_name': 'test2'}}
+2022-06-07 05:45:08,777 DEBUG server.py Разбор сообщения от клиента : {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1654566308.7681594, 'mess_text': 'ioj;sdfgo;jkdsfg ojpk;fdgs '}
+2022-06-07 05:45:08,777 INFO server.py Отправлено сообщение пользователю test1 от пользователя test2.
+2022-06-07 05:45:16,287 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654566316.0873685, 'account_name': 'test1'}
+2022-06-07 05:45:21,794 DEBUG server.py Разбор сообщения от клиента : {'action': 'exit', 'time': 1654566321.5782595, 'account_name': 'test2'}

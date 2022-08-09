@@ -1,0 +1,110 @@
+2022-06-07 04:57:21,089 DEBUG client.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__
+2022-06-07 04:57:32,660 DEBUG client.py Была вызвана функция create_presence c параметрами ('еtest42',), {}. Вызов из модуля __main__
+2022-06-07 04:57:32,661 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38030), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654563452.6606367, 'user': {'account_name': 'еtest42'}}), {}. Вызов из модуля common.utils
+2022-06-07 04:57:33,162 DEBUG client.py Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38030), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля common.utils
+2022-06-07 04:57:33,162 DEBUG client.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля __main__
+2022-06-07 04:57:49,086 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38030), raddr=('127.0.0.1', 7777)>, {'action': 'message', 'from': 'еtest42', 'to': 'test42', 'time': 1654563469.0866053, 'mess_text': "sdfpklsdfpj[ksdfjl;ksdfs'k"}), {}. Вызов из модуля common.utils
+2022-06-07 04:57:49,086 DEBUG client.py Была вызвана функция create_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38030), raddr=('127.0.0.1', 7777)>, 'еtest42'), {}. Вызов из модуля __main__
+2022-06-07 04:57:55,739 DEBUG client.py Была вызвана функция create_exit_message c параметрами ('еtest42',), {}. Вызов из модуля __main__
+2022-06-07 04:57:55,739 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38030), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1654563475.7390516, 'account_name': 'еtest42'}), {}. Вызов из модуля common.utils
+2022-06-07 04:57:56,190 DEBUG threading.py Была вызвана функция message_from_server c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38030), raddr=('127.0.0.1', 7777)>, 'еtest42'), {}. Вызов из модуля __main__
+2022-06-07 04:57:56,240 DEBUG threading.py Была вызвана функция user_interactive c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38030), raddr=('127.0.0.1', 7777)>, 'еtest42'), {}. Вызов из модуля __main__
+2022-06-07 04:59:32,536 DEBUG client.py Была вызвана функция create_arg_parser c параметрами (), {}. Вызов из модуля __main__
+2022-06-07 04:59:37,322 DEBUG client.py Была вызвана функция create_presence c параметрами ('test42',), {}. Вызов из модуля __main__
+2022-06-07 04:59:37,322 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38032), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1654563577.3223035, 'user': {'account_name': 'test42'}}), {}. Вызов из модуля common.utils
+2022-06-07 04:59:37,824 DEBUG client.py Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38032), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля common.utils
+2022-06-07 04:59:37,824 DEBUG client.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля __main__
+2022-06-07 04:59:48,484 DEBUG client.py Была вызвана функция create_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38032), raddr=('127.0.0.1', 7777)>, 'test42'), {}. Вызов из модуля __main__
+2022-06-07 05:00:05,058 DEBUG client.py Была вызвана функция create_exit_message c параметрами ('test42',), {}. Вызов из модуля __main__
+2022-06-07 05:00:05,058 DEBUG client.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38032), raddr=('127.0.0.1', 7777)>, {'action': 'exit', 'time': 1654563605.058051, 'account_name': 'test42'}), {}. Вызов из модуля common.utils
+2022-06-07 05:00:05,359 DEBUG threading.py Была вызвана функция message_from_server c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38032), raddr=('127.0.0.1', 7777)>, 'test42'), {}. Вызов из модуля __main__
+2022-06-07 05:00:05,559 DEBUG threading.py Была вызвана функция user_interactive c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 38032), raddr=('127.0.0.1', 7777)>, 'test42'), {}. Вызов из модуля __main__
+2022-06-07 05:04:15,829 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test42
+2022-06-07 05:04:15,829 DEBUG client.py Сформировано presence сообщение для пользователя test42
+2022-06-07 05:04:15,831 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-06-07 05:04:15,831 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:04:15,831 DEBUG client.py Запущены процессы
+2022-06-07 05:04:33,076 CRITICAL client.py Попытка отправить сообщение самому себе
+2022-06-07 05:04:38,307 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:04:38,358 CRITICAL client.py Потеряно соединение с сервером.
+2022-06-07 05:09:18,806 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test1
+2022-06-07 05:09:18,807 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2022-06-07 05:09:18,807 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-06-07 05:09:18,807 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:09:18,807 DEBUG client.py Запущены процессы
+2022-06-07 05:09:32,895 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test2
+2022-06-07 05:09:32,895 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2022-06-07 05:09:32,897 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-06-07 05:09:32,897 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:09:32,898 DEBUG client.py Запущены процессы
+2022-06-07 05:09:57,112 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1654564197.1123664, 'mess_text': 'Hello!!!'}
+2022-06-07 05:09:57,113 INFO client.py Отправлено сообщение для пользователя test1
+2022-06-07 05:09:57,427 INFO client.py Получено сообщение от пользователя test2:
+Hello!!!
+2022-06-07 05:10:49,910 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'test2', 'time': 1654564249.91072, 'mess_text': 'Ну нельзя Nooooo......'}
+2022-06-07 05:10:49,911 INFO client.py Отправлено сообщение для пользователя test2
+2022-06-07 05:10:49,991 INFO client.py Получено сообщение от пользователя test1:
+Ну нельзя Nooooo......
+2022-06-07 05:11:10,319 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:11:10,516 CRITICAL client.py Потеряно соединение с сервером.
+2022-06-07 05:11:20,458 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:11:20,529 CRITICAL client.py Потеряно соединение с сервером.
+2022-06-07 05:20:39,135 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test1
+2022-06-07 05:20:39,135 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2022-06-07 05:20:39,136 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-06-07 05:20:39,136 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:20:39,136 DEBUG client.py Запущены процессы
+2022-06-07 05:20:58,119 INFO client.py Запущен клиент с парамертами: адрес сервера: test2, порт: 7777, режим работы: test2
+2022-06-07 05:21:07,840 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test2
+2022-06-07 05:21:07,840 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2022-06-07 05:21:08,343 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-06-07 05:21:08,344 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:21:08,345 DEBUG client.py Запущены процессы
+2022-06-07 05:21:12,872 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:21:13,351 CRITICAL client.py Потеряно соединение с сервером.
+2022-06-07 05:21:16,758 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test2
+2022-06-07 05:21:16,758 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2022-06-07 05:21:16,759 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-06-07 05:21:16,759 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:21:16,760 DEBUG client.py Запущены процессы
+2022-06-07 05:21:23,001 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:21:23,268 CRITICAL client.py Потеряно соединение с сервером.
+2022-06-07 05:21:29,710 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:21:29,776 CRITICAL client.py Потеряно соединение с сервером.
+2022-06-07 05:31:21,590 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test1
+2022-06-07 05:31:21,590 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2022-06-07 05:31:21,591 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-06-07 05:31:21,591 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:31:21,591 DEBUG client.py Запущены процессы
+2022-06-07 05:31:28,433 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test2
+2022-06-07 05:31:28,433 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2022-06-07 05:31:28,434 DEBUG client.py Разбор сообщения от сервера: {'response': 200}
+2022-06-07 05:31:28,434 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:31:28,434 DEBUG client.py Запущены процессы
+2022-06-07 05:31:53,772 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1654565513.7722588, 'mess_text': '456465645'}
+2022-06-07 05:31:53,772 INFO client.py Отправлено сообщение для пользователя test1
+2022-06-07 05:31:53,965 INFO client.py Получено сообщение от пользователя test2:
+456465645
+2022-06-07 05:32:04,090 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:32:04,478 CRITICAL client.py Потеряно соединение с сервером.
+2022-06-07 05:32:10,181 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:32:10,486 CRITICAL client.py Потеряно соединение с сервером.
+2022-06-07 05:43:52,639 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test1
+2022-06-07 05:43:52,639 DEBUG client.py Сформировано presence сообщение для пользователя test1
+2022-06-07 05:43:52,639 DEBUG client.py Разбор сообщения от сервера: {'response': 200, 'names': ['test1']}
+2022-06-07 05:43:52,639 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:43:52,640 DEBUG client.py Запущены процессы
+2022-06-07 05:44:04,199 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: test2
+2022-06-07 05:44:04,200 DEBUG client.py Сформировано presence сообщение для пользователя test2
+2022-06-07 05:44:04,200 DEBUG client.py Разбор сообщения от сервера: {'response': 200, 'names': ['test1', 'test2']}
+2022-06-07 05:44:04,200 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2022-06-07 05:44:04,200 DEBUG client.py Запущены процессы
+2022-06-07 05:44:36,955 DEBUG client.py Попытка отправить сообщение самому себе
+2022-06-07 05:45:08,768 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test2', 'to': 'test1', 'time': 1654566308.7681594, 'mess_text': 'ioj;sdfgo;jkdsfg ojpk;fdgs '}
+2022-06-07 05:45:08,768 INFO client.py Отправлено сообщение для пользователя test1
+2022-06-07 05:45:08,778 INFO client.py Получено сообщение от пользователя test2:
+ioj;sdfgo;jkdsfg ojpk;fdgs 
+2022-06-07 05:45:16,087 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:45:16,288 CRITICAL client.py Потеряно соединение с сервером.
+2022-06-07 05:45:21,578 INFO client.py Завершение работы по команде пользователя.
+2022-06-07 05:45:21,795 CRITICAL client.py Потеряно соединение с сервером.
