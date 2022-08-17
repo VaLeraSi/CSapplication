@@ -238,3 +238,7 @@ if __name__ == '__main__':
     # app.exec_()
 
     # ----------------------------------------------------------
+    app = QApplication(sys.argv)
+    dial = ConfigWindow()
+
+    app.exec_()
