@@ -1,0 +1,30 @@
+2022-08-22 21:12:35,457 INFO transport.py Попытка подключения №1
+2022-08-22 21:12:35,457 DEBUG transport.py Установлено соединение с сервером
+2022-08-22 21:12:35,457 DEBUG transport.py Сформировано presence сообщение для пользователя test1
+2022-08-22 21:12:35,504 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-08-22 21:12:35,504 INFO transport.py Соединение с сервером успешно установлено.
+2022-08-22 21:12:35,504 DEBUG transport.py Запрос списка известных пользователей test1
+2022-08-22 21:12:36,031 DEBUG transport.py Запрос контакт листа для пользователя Thread-1
+2022-08-22 21:12:36,031 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1661191956.03157, 'user': 'test1'}
+2022-08-22 21:12:36,532 DEBUG transport.py Получен ответ {'response': 202, 'data_list': []}
+2022-08-22 21:12:52,871 INFO transport.py Попытка подключения №1
+2022-08-22 21:12:52,886 DEBUG transport.py Установлено соединение с сервером
+2022-08-22 21:12:52,886 DEBUG transport.py Сформировано presence сообщение для пользователя test1
+2022-08-22 21:12:57,900 CRITICAL transport.py Потеряно соединение с сервером!
+2022-08-22 21:13:42,132 INFO transport.py Попытка подключения №1
+2022-08-22 21:13:42,148 DEBUG transport.py Установлено соединение с сервером
+2022-08-22 21:13:42,148 DEBUG transport.py Сформировано presence сообщение для пользователя test1
+2022-08-22 21:13:42,676 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-08-22 21:13:42,676 INFO transport.py Соединение с сервером успешно установлено.
+2022-08-22 21:13:42,676 DEBUG transport.py Запрос списка известных пользователей test1
+2022-08-22 21:13:43,196 DEBUG transport.py Запрос контакт листа для пользователя Thread-1
+2022-08-22 21:13:43,196 DEBUG transport.py Сформирован запрос {'action': 'get_contacts', 'time': 1661192023.1967416, 'user': 'test1'}
+2022-08-22 21:13:43,687 DEBUG transport.py Получен ответ {'response': 202, 'data_list': []}
+2022-08-22 21:13:50,837 DEBUG transport.py Создание контакта client_1
+2022-08-22 21:13:51,327 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-08-22 21:13:51,344 INFO main_window.py Успешно добавлен контакт <PyQt5.QtGui.QStandardItem object at 0x000001D561A5CF70>
+2022-08-22 21:13:57,452 DEBUG transport.py Создание контакта client_2
+2022-08-22 21:13:57,946 DEBUG transport.py Разбор сообщения от сервера: {'response': 200}
+2022-08-22 21:13:57,955 INFO main_window.py Успешно добавлен контакт <PyQt5.QtGui.QStandardItem object at 0x000001D5630185E0>
+2022-08-22 21:14:14,544 DEBUG transport.py Сформирован словарь сообщения: {'action': 'message', 'from': 'test1', 'to': 'client_1', 'time': 1661192054.544398, 'mess_text': 'привет'}
+2022-08-22 21:14:14,650 DEBUG transport.py Разбор сообщения от сервера: {'response': 400, 'error': 'Пользователь не зарегистрирован на сервере.'}
