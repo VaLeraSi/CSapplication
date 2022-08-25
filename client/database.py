@@ -1,10 +1,11 @@
+import datetime
+import sys
+
+sys.path.append('../')
+from CSapplication.common.variables import *
 from sqlalchemy import create_engine, Table, Column, Integer, String, Text, MetaData, DateTime
 from sqlalchemy.orm import mapper, sessionmaker
 import os
-import sys
-sys.path.append('..')
-from CSapplication.common.variables import *
-import datetime
 
 
 # Класс - база данных сервера.
@@ -90,6 +91,10 @@ class ClientDatabase:
             contact_row = self.Contacts(contact)
             self.session.add(contact_row)
             self.session.commit()
+
+    def contacts_clear(self):
+        self.session.query(self.Contacts).delete()
+        self.session.commit()
 
     # Функция удаления контакта
     def del_contact(self, contact):
