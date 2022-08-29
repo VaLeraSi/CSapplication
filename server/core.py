@@ -7,6 +7,7 @@ import hmac
 import binascii
 import os
 import sys
+
 sys.path.append('../')
 from CSapplication.common.metaclasses import ServerMaker
 from CSapplication.common.descryptors import Port

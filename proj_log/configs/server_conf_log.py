@@ -1,6 +1,9 @@
-"""Config server logging"""
+"""
+Файл содержит конфигурацию логирования для серверной части приложения
+"""
 
 import sys
+
 sys.path.append('../')
 import logging
 import logging.handlers

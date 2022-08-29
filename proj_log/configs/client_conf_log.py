@@ -1,7 +1,10 @@
-"""Config client logging"""
+"""
+Файл содержит конфигурацию логирования для серверной части приложения
+"""
 
 import sys
 import os
+
 sys.path.append('../')
 import logging
 from CSapplication.common.variables import LOGGING_LEVEL

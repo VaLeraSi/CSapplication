@@ -3,10 +3,16 @@ from sqlalchemy.orm import mapper, sessionmaker
 import datetime
 
 
-# Класс - серверная база данных:
 class ServerStorage:
-    # Класс - отображение таблицы всех пользователей
+    '''
+    Класс - оболочка для работы с базой данных сервера.
+    Использует SQLite базу данных, реализован с помощью
+    SQLAlchemy ORM и используется классический подход.
+    '''
+
     class AllUsers:
+        '''Класс - отображение таблицы всех пользователей.'''
+
         def __init__(self, username, passwd_hash):
             self.name = username
             self.last_login = datetime.datetime.now()
@@ -14,8 +20,9 @@ class ServerStorage:
             self.pubkey = None
             self.id = None
 
-    # Класс - отображение таблицы активных пользователей:
     class ActiveUsers:
+        '''Класс - отображение таблицы активных пользователей.'''
+
         def __init__(self, user_id, ip_address, port, login_time):
             self.user = user_id
             self.ip_address = ip_address
@@ -23,8 +30,9 @@ class ServerStorage:
             self.login_time = login_time
             self.id = None
 
-    # Класс - отображение таблицы истории входов
     class LoginHistory:
+        '''Класс - отображение таблицы истории входов.'''
+
         def __init__(self, name, date, ip, port):
             self.id = None
             self.name = name
@@ -32,15 +40,17 @@ class ServerStorage:
             self.ip = ip
             self.port = port
 
-    # Класс - отображение таблицы контактов пользователей
     class UsersContacts:
+        '''Класс - отображение таблицы контактов пользователей.'''
+
         def __init__(self, user, contact):
             self.id = None
             self.user = user
             self.contact = contact
 
-    # Класс отображение таблицы истории действий
     class UsersHistory:
+        '''Класс - отображение таблицы истории действий.'''
+
         def __init__(self, user):
             self.id = None
             self.user = user

@@ -21,6 +21,10 @@ socket_lock = threading.Lock()
 
 # Класс - Транспорт, отвечает за взаимодействие с сервером
 class ClientTransport(threading.Thread, QObject):
+    '''
+    Класс реализующий транспортную подсистему клиентского
+    модуля. Отвечает за взаимодействие с сервером.
+    '''
     # Сигналы новое сообщение и потеря соединения
     new_message = pyqtSignal(dict)
     message_205 = pyqtSignal()
@@ -60,6 +64,7 @@ class ClientTransport(threading.Thread, QObject):
 
     # Функция инициализации соединения с сервером
     def connection_init(self, port, ip):
+        '''Метод отвечающий за устанновку соединения с сервером.'''
         # Инициализация сокета и сообщение серверу о нашем появлении
         self.transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -300,4 +305,3 @@ class ClientTransport(threading.Thread, QObject):
             if message:
                 logger.debug(f'Принято сообщение с сервера: {message}')
                 self.process_server_ans(message)
-
